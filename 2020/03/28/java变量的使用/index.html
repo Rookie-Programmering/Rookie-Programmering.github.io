@@ -6,14 +6,19 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>Archives: 2020 | Hexo</title>
+  <title>java变量的使用 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://yoursite.com/archives/2020/index.html">
+  <meta name="description" content="变量的使用">
+<meta property="og:type" content="article">
+<meta property="og:title" content="java变量的使用">
+<meta property="og:url" content="http://yoursite.com/2020/03/28/java%E5%8F%98%E9%87%8F%E7%9A%84%E4%BD%BF%E7%94%A8/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="变量的使用">
 <meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2020-03-28T08:16:51.000Z">
+<meta property="article:modified_time" content="2020-03-28T08:18:09.520Z">
 <meta property="article:author" content="Yang">
+<meta property="article:tag" content="随笔">
 <meta name="twitter:card" content="summary">
   
     <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
@@ -161,35 +166,148 @@
           </div>
           <div id="js-content" class="content-ll">
             
+    <i class="fa fa-thumb-tack"></i>
+    <font color=7D26CD>置顶</font>
+    <span class="post-meta-divider">|</span>
   
+<article id="post-java变量的使用" class="article article-type-post " itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
   
-    
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2020" class="archive-year">2020</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2020/03/28/java%E5%8F%98%E9%87%8F%E7%9A%84%E4%BD%BF%E7%94%A8/" class="archive-article-date">
+    <h1 class="article-title" itemprop="name">
+      java变量的使用
+    </h1>
+  
+
+       <!--显示阅读次数-->
+       
+         <br/>
+         <a class="cloud-tie-join-count" href="javascript:void(0);" style="color:gray;font-size:14px;">
+         <span class="icon-sort"></span>
+         <span id="busuanzi_container_page_pv" style="color:#ef7522;font-size:14px;">
+  	       阅读数: <span id="busuanzi_value_page_pv"></span>次 &nbsp;&nbsp;
+          </span>
+          </a>
+       
+       <!--显示阅读次数完毕-->
+        
+        <a href="/2020/03/28/java%E5%8F%98%E9%87%8F%E7%9A%84%E4%BD%BF%E7%94%A8/" class="archive-article-date">
   	<time datetime="2020-03-28T08:16:51.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-03-28</time>
 </a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2020/03/28/java%E5%8F%98%E9%87%8F%E7%9A%84%E4%BD%BF%E7%94%A8/">java变量的使用</a>
-    </h1>
-  
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="变量的使用"><a href="#变量的使用" class="headerlink" title="变量的使用"></a>变量的使用</h1><a id="more"></a>
+<h2 id="一，-按数据类型分类"><a href="#一，-按数据类型分类" class="headerlink" title="一， 按数据类型分类"></a>一， 按数据类型分类</h2><ol>
+<li><h3 id="基本数据类型-primitive-type"><a href="#基本数据类型-primitive-type" class="headerlink" title="基本数据类型(primitive type)"></a>基本数据类型(primitive type)</h3></li>
+</ol>
+<ul>
+<li>数值型:</li>
+</ul>
+<ol>
+<li>整数类型(byte,short,int,long). </li>
+<li>浮点类型(float,double).</li>
+</ol>
+<ul>
+<li>字符型:(char).</li>
+<li>布尔型:(boolean).</li>
+</ul>
+<ol start="2">
+<li><h3 id="引用数据类型-reference-type"><a href="#引用数据类型-reference-type" class="headerlink" title="引用数据类型(reference type)"></a>引用数据类型(reference type)</h3></li>
+</ol>
+<ul>
+<li>类(class).</li>
+<li>接口(interface).</li>
+<li>数组([]).</li>
+</ul>
+<ol start="3">
+<li><h3 id="详细说明"><a href="#详细说明" class="headerlink" title="详细说明"></a>详细说明</h3></li>
+</ol>
+<ul>
+<li>整形: byte(1字节=8bit)\short(2字节)\int(4字节)\long(8字节)<ul>
+<li>(1)byte范围:-128~127</li>
+<li>(2)声明long型变量,必须以“l”或”L”结尾</li>
+<li>(3)通常定义整型变量时,使用int型。 </li>
+<li>(4)整形常量默认类型时int.</li>
+</ul>
+</li>
+<li>浮点型:float(4字节)\double(8字节)<ul>
+<li>(1)浮点型:带小数点的数值.</li>
+<li>(2)float表示数值范围比long型还大.</li>
+<li>(3)定义float类型变量时,变量要以”f”或”F”结尾.</li>
+<li>(4)通常定义浮点型变量时,使用double. </li>
+<li>(5)浮点型常量默认类型为double.</li>
+</ul>
+</li>
+<li>字符型:char(1字符=2字节).<ul>
+<li>(1)定义char型变量,通常使用一对’’,内部只能写一个字符.</li>
+</ul>
+</li>
+<li>布尔型:boolean.<ul>
+<li>只能取两个值之一: true,false.</li>
+<li>常常在条件判断,循环结构中使用.  </li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="二，定义变量的格式"><a href="#二，定义变量的格式" class="headerlink" title="二，定义变量的格式"></a>二，定义变量的格式</h2><ol>
+<li>数据类型 变量名 = 变量值：</li>
+<li>数据类型 变量名;<br>变量名 = 变量值;</li>
+</ol>
+<hr>
+<h2 id="三，变量使用的注意点"><a href="#三，变量使用的注意点" class="headerlink" title="三，变量使用的注意点"></a>三，变量使用的注意点</h2><ol>
+<li>变量必须先声明后使用.</li>
+<li>变量都定义在其作用域内,在作用域内他是有效的,或者说,出了作用域就失效了.</li>
+<li>同一个作用域内不可声明两个同名的变量.</li>
+</ol>
 
-        <div class="article-info info-on-right">
-          
+      
+
+      
+        <div class="page-reward">
+          <a href="javascript:;" class="page-reward-btn tooltip-top">
+            <div class="tooltip tooltip-east">
+            <span class="tooltip-item">
+              赏
+            </span>
+            <span class="tooltip-content">
+              <span class="tooltip-text">
+                <span class="tooltip-inner">
+                  <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你请我吃糖果<i class="icon icon-quo-right"></i></p>
+                  <div class="reward-box">
+                    
+                    <div class="reward-box-item">
+                      <img class="reward-img" src="/assets/094B2D7B626C11216338D4E10E792413.jpg">
+                      <span class="reward-type">支付宝</span>
+                    </div>
+                    
+                    
+                    <div class="reward-box-item">
+                      <img class="reward-img" src="/assets/mmqrcode1584931625843.png">
+                      <span class="reward-type">微信</span>
+                    </div>
+                    
+                  </div>
+                </span>
+              </span>
+            </span>
+          </div>
+          </a>
+        </div>
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+        <div class="article-pop-out tagcloud">
+          <i class="icon-tuding"></i>
+          <a class="article-tag-list-link color3">置顶</a>
+        </div>
+      
+      
 	<div class="article-tag tagcloud">
 		<i class="icon-price-tags icon"></i>
 		<ul class="article-tag-list">
@@ -201,84 +319,119 @@
 		</ul>
 	</div>
 
-          
+      
 
+      
+
+      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
         </div>
-        <div class="clearfix"></div>
-    </header>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=http://Rookie-Programmering.github.io/2020/03/28/java%E5%8F%98%E9%87%8F%E7%9A%84%E4%BD%BF%E7%94%A8/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
+      
+      <div class="clearfix"></div>
+    </div>
   </div>
 </article>
+
   
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2020/03/23/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/" class="archive-article-date">
-  	<time datetime="2020-03-23T04:55:23.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-03-23</time>
-</a>
+<nav id="article-nav">
+  
+  
+    <a href="/2020/03/23/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">第一篇博客文章</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
         </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2020/03/23/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/">第一篇博客文章</a>
-    </h1>
-  
-
-        <div class="article-info info-on-right">
-          
-          
-
+        
+        
+        <div class="toc-container tooltip-left">
+            <i class="icon-font icon-category"></i>
+            <div class="tooltip tooltip-east">
+                <span class="tooltip-item">
+                </span>
+                <span class="tooltip-content">
+                    <div class="toc-article">
+                    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#变量的使用"><span class="toc-number">1.</span> <span class="toc-text">变量的使用</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#一，-按数据类型分类"><span class="toc-number">1.1.</span> <span class="toc-text">一， 按数据类型分类</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#基本数据类型-primitive-type"><span class="toc-number">1.1.1.</span> <span class="toc-text">基本数据类型(primitive type)</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#引用数据类型-reference-type"><span class="toc-number">1.1.2.</span> <span class="toc-text">引用数据类型(reference type)</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#详细说明"><span class="toc-number">1.1.3.</span> <span class="toc-text">详细说明</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#二，定义变量的格式"><span class="toc-number">1.2.</span> <span class="toc-text">二，定义变量的格式</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#三，变量使用的注意点"><span class="toc-number">1.3.</span> <span class="toc-text">三，变量使用的注意点</span></a></li></ol></li></ol>
+                    </div>
+                </span>
+            </div>
         </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
+        
+    </div>
+</aside>
+
+
+
   
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2020/03/23/hello-world/" class="archive-article-date">
-  	<time datetime="2020-03-23T00:20:31.021Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-03-23</time>
-</a>
-        </div>
-    	 
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2020/03/23/hello-world/">Hello World</a>
-    </h1>
   
 
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">随笔</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-  
-    </div></section>
   
 
-    
+  
+
+  
 
 
           </div>
@@ -304,8 +457,8 @@
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: false,
-		isArchive: true,
+		isPost: true,
+		isArchive: false,
 		isTag: false,
 		isCategory: false,
 		open_in_new: false,
